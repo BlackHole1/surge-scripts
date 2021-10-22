@@ -1,0 +1,8 @@
+#!name=juejin-link
+#!desc=skip transfer page
+
+[Script]
+link_juejin = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/link\.zhihu\.com\/\?(.*)target=(.*),script-path=https://raw.githubusercontent.com/BlackHole1/surge-scripts/main/link/juejin.js
+
+[MITM]
+hostname = %APPEND% link.juejin.cn
