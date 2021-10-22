@@ -8,4 +8,4 @@ link_csdn = type=http-request,pattern=^https?:\/\/link\.csdn\.net\/\?(.*)target=
 link_game_bilibli = type=http-request,pattern=^https?:\/\/game\.bilibili\.com\/linkfilter\/\?(.*)url=(.*),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/BlackHole1/surge-scripts/main/link/game.bilibili.js
 
 [MITM]
-hostname = %APPEND% link.juejin.cn link.zhihu.com link.csdn.net game.bilibili.com
+hostname = %APPEND% link.juejin.cn, link.zhihu.com, link.csdn.net, game.bilibili.com
