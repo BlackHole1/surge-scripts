@@ -2,7 +2,7 @@
 #!desc=skip transfer page
 
 [Script]
-link_zhihu = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/link\.zhihu\.com\/\?(.*)target=(.*),script-path=https://raw.githubusercontent.com/BlackHole1/surge-scripts/main/link/zhihu.js
+link_zhihu = type=http-request,pattern=^https?:\/\/link\.zhihu\.com\/\?(.*)target=(.*),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/BlackHole1/surge-scripts/main/link/zhihu.js
 
 [MITM]
 hostname = %APPEND% link.zhihu.com
