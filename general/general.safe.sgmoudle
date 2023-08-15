@@ -5,3 +5,4 @@
 allow-wifi-access = false
 http-api-web-dashboard = false
 external-controller-access = pwd@127.0.0.1:6170
+http-api = pwd@127.0.0.1:6171
