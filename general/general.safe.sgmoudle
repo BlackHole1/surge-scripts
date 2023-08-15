@@ -1,0 +1,7 @@
+#!name=Safe General
+#!desc=Safe General Config
+
+[General]
+allow-wifi-access = false
+http-api-web-dashboard = false
+external-controller-access = pwd@127.0.0.1:6170

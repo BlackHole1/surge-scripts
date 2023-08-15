@@ -16,3 +16,13 @@
 [link-juejin.sgmoudle]: https://raw.githubusercontent.com/BlackHole1/surge-scripts/main/link/juejin.sgmoudle
 [link-csdn.sgmoudle]: https://raw.githubusercontent.com/BlackHole1/surge-scripts/main/link/csdn.sgmoudle
 [link-game.bilibili.sgmoudle]: https://raw.githubusercontent.com/BlackHole1/surge-scripts/main/link/game.bilibili.sgmoudle
+
+## General
+
+| name       | address                                                    | description         |
+| ---------- | ---------------------------------------------------------- | ------------------- |
+| Safe       | [general.safe.sgmoudle][general.safe.sgmoudle]             | safe general config |
+| Fixed Port | [general.fixed-port.sgmoudle][general.fixed-port.sgmoudle] | fixed port config   |
+
+[general.safe.sgmoudle]: https://raw.githubusercontent.com/BlackHole1/surge-scripts/main/general/general.safe.sgmoudle
+[general.fixed-port.sgmoudle]: https://raw.githubusercontent.com/BlackHole1/surge-scripts/main/general/general.fixed-port.sgmoudle
