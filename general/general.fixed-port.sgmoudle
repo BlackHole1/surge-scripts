@@ -1,5 +1,5 @@
-#!name=Safe General
-#!desc=Safe General Config
+#!name=Fixed Port
+#!desc=Fixed Port Config
 
 [General]
 http-listen = 0.0.0.0:8888
